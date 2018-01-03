@@ -1,0 +1,2692 @@
+@media only screen and ( min-width: 1320px ) {
+/*===============================================
+
+	M O N I T O R
+	1320px/unlimited
+
+===============================================*//**/
+
+/**/}
+
+
+@media only screen and ( min-width: 960px ) and ( max-width: 1319px ) {
+/*===============================================
+
+	T A B L E T   /   L A P T O P
+	960px/1319px
+
+===============================================*//**/
+
+/*
+
+	1 - LAYOUT
+
+		- Header
+		- Content
+		- Footer
+
+	2 - MENU
+
+		- Primary
+		- Secondary
+
+	3 - SIDEBARS
+
+		- Sidebar
+		- Footer
+
+	5 - COMMON
+
+		- Titles
+		- Attachment
+		- Quotes
+		- Fieldset
+
+	6 - POSTS
+
+		- Featured
+
+	7 - WIDGETS
+
+	8 - BUDDYPRESS
+
+	9 - ICONS
+
+		- Social
+
+	10 - SHORTCODES
+
+	11 - POST
+
+	12 - SPECIAL
+
+	13 - PAGINATION
+
+	14 - ARCHIVE
+
+	15 - BBPRESS
+
+	16 - COMMENTS
+
+	17 - 404
+
+	18 - WOOCOMMERCE
+
+	19 - FROMS
+
+	20 - PROJECTS
+
+	21 - FORMATS
+
+	22 - WP REVIEW
+
+*/
+
+	/*===========================================
+		L A Y O U T
+	===========================================*/
+
+	.boxed #layout {
+		max-width: 985px;
+	}
+
+	/*--- Header ------------------------------*/
+
+	#header {
+	}
+
+		#header-holder {
+			width: 935px;
+		}
+
+		#header-holder-2 {
+			width: 935px;
+		}
+
+	/*-- Header v.3 ---------------------------*/
+
+	.header-3 #logo {
+		padding-top: 25px;
+	}
+
+	.header-3 #menu-box:not(.menu-box-fixed) ul.menu > li {
+		margin: 0 16px;
+	}
+
+	.header-3 #menu-box ul.menu > li:first-child {
+		margin-left: 0;
+	}
+
+		.header-3 #menu-box:not(.menu-box-fixed) ul.menu > li:after {
+			left: -16px;
+		}
+
+	/*--- Content -----------------------------*/
+
+	#content-layout {
+		width: 935px;
+	}
+
+		#content-box {
+			margin-bottom: 25px;
+			padding-top: 25px;
+		}
+
+			/* If sidebar not exixts (full width) */
+			.page-template-template-frontpage-php .sidebar-secondary-inactive.sidebar-position-none #content-box {
+				width: 935px;
+			}
+
+			/* If sidebar by right */
+			.sidebar-position-right #content-box {
+				width: 610px;
+			}
+
+			/* If sidebar by left */
+			.sidebar-position-left #content-box {
+				width: 610px;
+			}
+
+				/* For single */
+				div.post-single {
+				}
+
+				/* If sidebar none */
+				.sidebar-position-none div.post-single {
+				}
+
+			/* If sidebar by none */
+			.sidebar-position-none #content-box {
+				width: 610px;
+			}
+
+				/* If single */
+				.single .sidebar-position-none #content-box,
+				.page .sidebar-position-none #content-box {
+					width: 850px;
+				}
+
+				/* If the Secondary sidebar available */
+				.sidebar-secondary-available #content-box > div > div:first-child {
+					width: 359px;
+				}
+
+					.sidebar-position-right #article.sidebar-post-enabled,
+					.sidebar-position-none #article.sidebar-post-enabled {
+						padding-left: 185px;
+					}
+
+					.sidebar-position-left #article.sidebar-post-enabled {
+						padding-right: 185px;
+					}
+
+	/*--- Footer ------------------------------*/
+
+	#footer-holder {
+		width: 935px;
+	}
+
+		#copyrights-holder {
+			width: 885px;
+		}
+
+
+	/*===========================================
+		M E N U
+	===========================================*/
+
+	/*-- Header v.5 ---------------------------*/
+
+	.header-5 #menu-box {
+		width: 935px;
+	}
+
+	/*--- Primary -----------------------------*/
+
+	#menu-box {
+		width: 935px;
+	}
+
+		ul.menu {
+			margin-left: 5px;
+		}
+
+			.boxed #menu.menu-sticky {
+			}
+
+				ul.menu > li {
+					margin: 0 20px;
+				}
+
+					ul.menu > li:after {
+						left: -20px;
+					}
+
+						ul.menu > li > a > span.subline {
+							display: none;
+						}
+
+				li[class*="st-mega-"] .st-mega-holder,
+				li[class*="st-megamenu-"] .st-mega-holder {
+					width: 935px;
+				}
+
+	/*--- Secondary ---------------------------*/
+
+	ul.menu-2 {
+		margin-left: 15px;
+	}
+
+		ul.menu-2 > li {
+			margin: 0 10px;
+		}
+
+	/*--- Megamenu: columns -------------------*/
+
+	.st-megamenu-sidebar .st-mega-holder > li {
+		padding: 25px 12.5px 0;
+	}
+
+		/*li[class*="st-megamenu-col-"] .widget {
+			margin: 0 12.5px 25px;
+		}*/
+
+		/*.st-megamenu-col-2 .widget {
+			width: calc( 50% - 25px );
+		}
+
+		.st-megamenu-col-3 .widget {
+			width: calc( 33.3% - 25px );
+		}
+
+		.st-megamenu-col-4 .widget {
+			width: calc( 25% - 25px );
+		}
+
+		.st-megamenu-col-5 .widget {
+			width: calc( 20% - 25px );
+		}
+
+		.st-megamenu-col-6 .widget {
+			width: calc( 16.5% - 25px );
+		}*/
+
+	/*===========================================
+		S I D E B A R S
+	===========================================*/
+
+	/*--- Sidebar -----------------------------*/
+
+	.sidebar-primary {
+		margin: 25px 0 0;
+	}
+
+		.widget {
+			margin-bottom: 25px;
+		}
+
+	/*--- Ad Sidebars -------------------------*/
+
+	.sidebar-ad-a {
+		margin-top: 25px;
+	}
+
+	.sidebar-ad-b {
+		margin-top: 25px;
+	}
+
+	#sidebar-ad-c {
+	}
+
+	/*--- Footer ------------------------------*/
+
+	#footer-box {
+		padding-top: 25px;
+	}
+
+	.sidebar-footer > div {
+		margin-right: 25px;
+		margin-bottom: 25px;
+	}
+
+		/*- 1/3 + 1/3 + 1/3 -*/
+
+		.footer-box-v1 .sidebar-footer {
+			width: 320px;
+		}
+
+		.footer-box-v1 .sidebar-footer.last {
+			width: 295px;
+		}
+
+		/*- 1/4 + 1/4 + 1/2 -*/
+
+		.footer-box-v2 .sidebar-footer {
+			width: 240px;
+		}
+
+		.footer-box-v2 .sidebar-footer.last {
+			width: 455px;
+		}
+
+		/*- 1/4 + 1/2 + 1/4 -*/
+
+		.footer-box-v3 .sidebar-footer {
+			width: 480px;
+		}
+
+		.footer-box-v3 .sidebar-footer:first-child {
+			width: 240px;
+		}
+
+		.footer-box-v3 .sidebar-footer.last {
+			width: 215px;
+		}
+
+	/*- 1/2 + 1/4 + 1/4 -*/
+
+	.footer-box-v4 .sidebar-footer {
+		width: 240px;
+	}
+
+	.footer-box-v4 .sidebar-footer:first-child {
+		width: 480px;
+	}
+
+	.footer-box-v4 .sidebar-footer.last {
+		width: 215px;
+	}
+
+	/*- 1/4 + 1/4 + 1/4 + 1/4 -*/
+
+	.footer-box-v5 .sidebar-footer {
+		width: 240px;
+	}
+
+	.footer-box-v5 .sidebar-footer.last {
+		width: 215px;
+	}
+
+	/*- 2/3 + 1/3 -*/
+
+	.footer-box-v6 .sidebar-footer {
+		width: 295px;
+	}
+
+	.footer-box-v6 .sidebar-footer:first-child {
+		width: 640px;
+	}
+
+	/*--- Post Sidebar ------------------------*/
+
+	/* Post Sidebar by left side */
+	.sidebar-position-right div.sidebar-post,
+	.sidebar-position-none div.sidebar-post {
+		left: 0;
+	}
+
+	/* Post Sidebar by right side */
+	.sidebar-position-left div.sidebar-post {
+		right: 0;
+	}
+
+
+	/*===========================================
+		C O M M O N
+	===========================================*/
+
+	/*--- Fieldset ---------------------------*/
+
+	fieldset {
+		padding: 10px 15px;
+	}
+
+
+	/*===========================================
+		P O S T S
+	===========================================*/
+
+	.post-template {
+		padding-bottom: 25px;
+	}
+
+		.post-template article {
+			margin: 25px;
+			padding: 25px;
+		}
+
+	/*--- Post t1 ----------------------------*/
+
+	div.post-t1 {
+		padding: 0 25px 25px;
+	}
+
+		.archive .v1 > div:first-child,
+		.search .v1 > div:first-child {
+			padding-top: 25px;
+		}
+
+	/*--- Sticky ------------------------------*/
+
+	#owl-sticky-wrapper {
+		margin-top: 25px;
+	}
+
+	/*--- Related -----------------------------*/
+
+	.posts-related-wrapper {
+		justify-content: space-around;
+	}
+
+		.posts-related-wrapper > div.third {
+			display: none;
+		}
+
+
+	/*===========================================
+		W I D G E T S
+	===========================================*/
+
+	/* none */
+
+
+	/*===========================================
+		I C O N S
+	===========================================*/
+
+	/*--- Social ------------------------------*/
+
+	.icons-social {
+	}
+
+
+	/*===========================================
+		S H O R T C O D E S
+	===========================================*/
+
+	/*--- Separator OR ------------------------*/
+
+	.separator-or {
+		margin-bottom: 25px;
+	}
+
+
+	/*===========================================
+		P O S T
+	===========================================*/
+
+	#article {
+		margin-bottom: 25px;
+		padding-bottom: 25px;
+	}
+
+	#post-after {
+		margin: 25px 0;
+	}
+
+	.page .sidebar-position-left article,
+	.page .sidebar-position-right article,
+	.single .sidebar-position-left article,
+	.single .sidebar-position-right article {
+		margin: 25px;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+		.post-default .st-format-standard-holder article,
+		.post-default .st-format-image-holder article,
+		.post-default .st-format-gallery-holder article {
+			margin-top: -25px;
+		}
+
+
+		.page-feat-img-yes article,
+		.sidebar-position-left .single-feat-img-yes.format-standard article,
+		.sidebar-position-right .single-feat-img-yes.format-standard article,
+		.sidebar-position-left .single-feat-img-yes.format-image article,
+		.sidebar-position-right .single-feat-img-yes.format-image article,
+		.sidebar-position-left .single-feat-img-yes.format-gallery article,
+		.sidebar-position-right .single-feat-img-yes.format-gallery article {
+			margin-top: -25px;
+		}
+
+	/*===========================================
+		S P E C I A L
+	===========================================*/
+
+	.alignleft {
+		margin-right: 10px;
+	}
+
+	.alignright {
+		margin-left: 10px;
+	}
+
+	/*===========================================
+		P A G I N A T I O N
+	===========================================*/
+
+	/*--- Page pagination ---------------------*/
+
+	.page-pagination {
+		margin: 0 0 25px 0;
+	}
+
+	/*--- WP-Pagenavi -------------------------*/
+
+	#wp-pagenavibox {
+		margin: 25px 0;
+	}
+
+	/*===========================================
+		A R C H I V E
+	===========================================*/
+
+	#term {
+		margin-bottom: 25px;
+	}
+
+		.term-title h1 {
+			font-size: 2em;
+		}
+
+	/*===========================================
+		4 0 4
+	===========================================*/
+
+	#page-404 form {
+		margin: 25px 0;
+	}
+
+	/*===========================================
+		F O R M A T S
+	===========================================*/
+
+	/*-- Standard -----------------------------*/
+
+	.st-format-standard-holder .wp-post-image {
+		max-height: 300px;
+	}
+
+	/*-- Image --------------------------------*/
+
+	.st-format-image-holder .wp-post-image {
+		max-height: 300px;
+	}
+
+	/*-- Link ---------------------------------*/
+
+	.st-format-link-holder .wp-post-image {
+		max-height: 300px;
+	}
+
+		.st-format-link-holder .st-format-link a {
+			font-size: 1.25em;
+			margin: 25px auto;
+		}
+
+	/*-- Quote --------------------------------*/
+
+	.st-format-quote-holder .wp-post-image {
+		max-height: 300px;
+	}
+
+	/*-- Audio --------------------------------*/
+
+	.st-format-audio-holder .wp-post-image {
+		max-height: 300px;
+	}
+
+	/*-- Archives -----------------------------*/
+
+	.archive .st-format-status-holder {
+		margin-bottom: 25px;
+	}
+
+	/*-- Single -------------------------------*/
+
+	#article div[class^="st-format-"],
+	#article > div[class^="st-format-"],
+	.post-default div[class^="st-format-"] {
+		margin-bottom: 0;
+	}
+
+		#article div.st-format-standard-holder,
+		.post-default div.st-format-standard-holder {
+			margin-bottom: 0;
+		}
+
+	/*-- Gallery ------------------------------*/
+
+	.single .sidebar-position-left .st-format-gallery-holder .stOwlGallery .item a,
+	.single .sidebar-position-right .st-format-gallery-holder .stOwlGallery .item a,
+	.post-default .st-format-gallery-holder .stOwlGallery .item a {
+		bottom: 25px;
+	}
+
+/**/}
+
+
+@media only screen and ( min-width: 640px ) and ( max-width: 959px ) {
+/*===============================================
+
+	T A B L E T   V
+	640px/959px
+
+===============================================*//**/
+
+/*
+
+	1 - LAYOUT
+
+		- Header
+		- Content
+		- Footer
+
+	2 - MENU
+
+		- Primary
+		- Secondary
+
+	3 - SIDEBARS
+
+		- Sidebar
+		- Footer
+		- Ad sidebars
+		- Frontpage Sidebars
+
+	5 - COMMON
+
+		- Titles
+		- Attachment
+		- Quotes
+		- Fieldset
+
+	6 - POSTS
+
+		- Featured
+
+	7 - WIDGETS
+
+	8 - BUDDYPRESS
+
+	9 - ICONS
+
+		- Social
+
+	10 - SHORTCODES
+
+	11 - POST
+
+	12 - SPECIAL
+
+
+	13 - PAGINATION
+
+	14 - ARCHIVE
+
+	15 - BBPRESS
+
+	16 - COMMENTS
+
+	17 - 404
+
+	18 - WOOCOMMERCE
+
+	19 - FORMS
+
+	20 - PROJECTS
+
+	21 - FORMATS
+
+	22 - WP REVIEW
+
+*/
+
+	/*===========================================
+		L A Y O U T
+	===========================================*/
+
+	html {
+		overflow-y: scroll;
+	}
+
+	.boxed #layout {
+		max-width: 690px;
+	}
+
+	/*--- Header ------------------------------*/
+
+	#header {
+	}
+
+		#header-layout,
+		.header-2 #header-layout {
+			padding-top: 50px;
+			min-height: 0;
+		}
+
+			#header-holder {
+				width: 100%;
+			}
+
+				#logo {
+					display: none;
+				}
+
+		#header-layout-2 {
+			display: none;
+		}
+
+		.header-3 #logo {
+			padding-top: 25px;
+		}
+
+	/*--- Content -----------------------------*/
+
+	body.menu-resp-on.boxed #layout {
+		left: calc( 50% - 345px );
+	}
+
+	#content-layout {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+		#content-holder #content-box {
+			float: none;
+			width: 640px;
+		}
+
+			#content-box {
+				min-height: 100px;
+				margin: 0 auto;
+				margin-bottom: 25px;
+				padding: 25px 0 0;
+			}
+
+				.sidebar-secondary-available #content-box > div > div:first-child {
+					width: 389px;
+				}
+
+		#content-holder div.post-single {
+			float: none;
+			width: 640px;
+			margin: 0;
+		}
+
+	/*--- Footer ------------------------------*/
+
+
+	#footer-holder {
+		width: 640px;
+	}
+
+		#footer-box {
+			margin-right: -50px;
+		}
+
+	#copyrights-holder {
+		width: 590px;
+	}
+
+		#copyrights-box * {
+			line-height: 1.575em;
+		}
+
+			#copyrights-box > div {
+				width: 100%;
+				text-align: center;
+			}
+
+
+	/*===========================================
+		M E N U
+	===========================================*/
+
+	/*--- Primary -----------------------------*/
+
+	#menu {
+		display: none;
+	}
+
+	/*--- Secondary ---------------------------*/
+
+	#menu-2 {
+		display: none;
+	}
+
+	/*===========================================
+		S I D E B A R S
+	===========================================*/
+
+	/*--- Sidebar -----------------------------*/
+
+	#content-holder .sidebar-primary {
+		float: none;
+		width: 640px;
+		height: auto !important;
+		margin: 0 auto;
+		margin-top: 25px;
+	}
+
+		.sidebar-primary .sidebar {
+			width: 640px;
+		}
+
+			.widget {
+				margin-bottom: 25px;
+			}
+
+			.sidebar-primary .sidebar .widget:nth-child(odd) {
+				clear: both;
+			}
+
+			.sidebar-primary .sidebar .widget:nth-child(even) {
+				clear: both;
+			}
+
+	/*--- Post Sidebar ------------------------*/
+
+	/* Post Sidebar by left side */
+	.sidebar-position-right div.sidebar-post,
+	.sidebar-position-none div.sidebar-post {
+		display: none;
+	}
+
+	/* Post Sidebar by right side */
+	.sidebar-position-left div.sidebar-post {
+		display: none;
+	}
+
+	/*--- Footer ------------------------------*/
+
+	#footer-box {
+		margin-right: 0;
+		padding-top: 25px;
+	}
+
+	#footer-box .sidebar-footer,
+	#footer-box .sidebar-footer.last {
+		float: none;
+		width: auto;
+	}
+
+		#footer-box .sidebar-footer > div,
+		#footer-box .sidebar-footer.last > div {
+			margin: 0;
+		}
+
+	/*--- Ad sidebars -------------------------*/
+
+	.sidebar-ad-a {
+		margin-top: 25px;
+	}
+
+	.sidebar-ad-b {
+		margin-top: 25px;
+	}
+
+	#sidebar-ad-c {
+	}
+
+	/*===========================================
+		C O M M O N
+	===========================================*/
+
+	/*--- Fieldset ---------------------------*/
+
+	fieldset {
+		padding: 10px 15px;
+	}
+
+
+	/*===========================================
+		P O S T S
+	===========================================*/
+
+	.post-template {
+		padding-bottom: 25px;
+	}
+
+		.post-template article {
+			margin: 25px;
+			padding: 25px;
+		}
+
+	.post-default-yes-thumb.format-standard article,
+	.post-default-yes-thumb.format-image article,
+	.post-default.format-gallery article {
+		margin-top: -25px;
+	}
+
+	/*--- Post t1 ----------------------------*/
+
+	div.post-t1 {
+		padding: 0 25px 25px;
+	}
+
+		.archive .v1 > div:first-child,
+		.search .v1 > div:first-child {
+			padding-top: 25px;
+		}
+
+	/*--- Sticky ------------------------------*/
+
+	#owl-sticky-wrapper {
+		margin-top: 25px;
+	}
+
+		#owl-sticky-tabs {
+			width: 250px;
+		}
+
+			#owl-sticky-tabs div span {
+				padding: 15px 25px;
+			}
+
+		#owl-sticky .post-sticky-a > div {
+			width: calc( 100% - 250px - 100px );
+			margin-right: 250px;
+			padding: 0 50px 50px;
+		}
+
+			#owl-sticky .post-sticky-a {
+				height: 450px;
+			}
+
+				#owl-sticky .post-sticky-a h3 {
+					font-size: 1.75em;
+				}
+
+	/*--- Featured categories -----------------------------*/
+
+	.featured-categories {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-around;
+	}
+
+		.featured-categories a {
+			display: block;
+			width: 50%;
+		}
+
+			.featured-categories a.even {
+				float: left;
+			}
+
+			.featured-categories a.odd {
+				float: right;
+			}
+
+				.featured-categories a span {
+					margin: 50px 15px;
+				}
+
+	/*--- Related -----------------------------*/
+
+	.posts-related-wrapper {
+		justify-content: space-around;
+	}
+
+		.posts-related-wrapper > div.third {
+			display: none;
+		}
+
+	/*===========================================
+		S H O R T C O D E S
+	===========================================*/
+
+	/*--- Columns -----------------+-----------*/
+
+	.column {
+		float: none;
+		width: auto !important;
+	}
+
+		.column > div {
+			margin-right: 0 !important;
+		}
+
+	/*--- Icon Box ----------------------------*/
+
+	.st_icon_box_16:before {
+		top: 0.60em;
+	}
+
+	.st_icon_box_32:before {
+		top: 0.2em;
+	}
+
+	/*--- Pull Quotes -------------------------*/
+
+	.pullquote {
+	}
+
+		.pullquote-left {
+		}
+
+		.pullquote-right {
+		}
+
+	/*--- Notice ------------------------------*/
+
+	.notice {
+		padding: 25px 35px 15px;
+	}
+
+	.notice-frontpage {
+		padding: 50px;
+	}
+
+	/*--- Tabs --------------------------------*/
+
+	.st-ul li {
+		padding: 5px 15px;
+	}
+
+	.st-tabs {
+		padding: 15px;
+	}
+
+	/*--- Separator OR ------------------------*/
+
+	.separator-or {
+		margin-bottom: 25px;
+	}
+
+
+	/*===========================================
+		P O S T
+	===========================================*/
+
+	#article {
+		margin-bottom: 25px;
+		padding-bottom: 25px;
+	}
+
+	#post-after {
+		margin: 25px 0;
+	}
+
+	.page article,
+	.single article {
+		margin: 25px;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+		.page-feat-img-yes article,
+		.single-feat-img-yes.format-standard article,
+		.single-feat-img-yes.format-image article,
+		.single-feat-img-yes.format-gallery article {
+			margin-top: -25px;
+		}
+
+		#post-after {
+			margin: 25px 0;
+		}
+
+
+	/*===========================================
+		S P E C I A L
+	===========================================*/
+
+	.alignleft {
+		margin-right: 10px;
+	}
+
+	.alignright {
+		margin-left: 10px;
+	}
+
+
+	/*===========================================
+		P A G I N A T I O N
+	===========================================*/
+
+	/*--- Page pagination ---------------------*/
+
+	.page-pagination {
+		margin: 0 0 25px 0;
+	}
+
+	/*--- WP-Pagenavi -------------------------*/
+
+	#wp-pagenavibox {
+		margin: 25px 0;
+	}
+
+
+	/*===========================================
+		A R C H I V E
+	===========================================*/
+
+	#term {
+		margin-bottom: 25px;
+	}
+
+		.term-title h1 {
+			font-size: 2em;
+		}
+
+
+	/*===========================================
+		C O M M E N T S
+	===========================================*/
+
+	.comments-title {
+		padding-top: 25px;
+	}
+
+	#commentform input[type="submit"] {
+		width: 100%;
+	}
+
+
+	/*===========================================
+		4 0 4
+	===========================================*/
+
+	#page-404 form {
+		margin: 25px 0;
+	}
+
+
+	/*===========================================
+		F O R M A T S
+	===========================================*/
+
+	/*-- Standard -----------------------------*/
+
+	.st-format-standard-holder .wp-post-image {
+		max-height: 300px;
+	}
+
+	/*-- Image --------------------------------*/
+
+	.st-format-image-holder .wp-post-image {
+		max-height: 300px;
+	}
+
+	/*-- Link ---------------------------------*/
+
+	.st-format-link-holder .wp-post-image {
+		max-height: 300px;
+	}
+
+		.st-format-link-holder .st-format-link a {
+			font-size: 1.25em;
+			margin: 25px auto;
+		}
+
+	/*-- Quote --------------------------------*/
+
+	.st-format-quote-holder .wp-post-image {
+		max-height: 300px;
+	}
+
+	/*-- Audio --------------------------------*/
+
+	.st-format-audio-holder .wp-post-image {
+		max-height: 300px;
+	}
+
+	/*-- Archives -----------------------------*/
+
+	.archive .st-format-status-holder {
+		margin-bottom: 25px;
+	}
+
+	/*-- Single -------------------------------*/
+
+	#article div[class^="st-format-"],
+	#article > div[class^="st-format-"],
+	.post-default div[class^="st-format-"] {
+		margin-bottom: 0;
+	}
+
+		#article div.st-format-standard-holder,
+		.post-default div.st-format-standard-holder {
+			margin-bottom: 0;
+		}
+
+	/*-- Gallery ------------------------------*/
+
+	.single .st-format-gallery-holder .stOwlGallery .item a,
+	.post-default .st-format-gallery-holder .stOwlGallery .item a {
+		bottom: 25px;
+	}
+
+/**/}
+
+
+@media only screen and ( min-width: 480px ) and ( max-width: 639px ) {
+/*===============================================
+
+	P H O N E   H
+	480px/639px
+
+===============================================*//**/
+
+/*
+
+	0 - COMMON
+
+
+	1 - LAYOUT
+
+		- Header
+		- Content
+		- Footer
+
+	2 - MENU
+
+		- Primary
+		- Secondary
+
+	3 - SIDEBARS
+
+		- Sidebar
+		- Footer
+		- Ad sidebars
+
+	5 - COMMON
+
+		- Titles
+		- Attachment
+		- Quotes
+		- Fieldset
+
+	6 - POSTS
+
+		- Featured
+
+	7 - WIDGETS
+
+	8 - BUDDYPRESS
+
+	9 - ICONS
+
+		- Social
+
+	10 - SHORTCODES
+
+	11 - POST
+
+	12 - SPECIAL
+
+	13 - PAGINATION
+
+	14 - ARCHIVE
+
+	15 - BBPRESS
+
+	16 - COMMENTS
+
+	17 - 404
+
+	18 - WOOCOMMERCE
+
+	19 - FORMS
+
+	20 - PROJECTS
+
+	21 - FORMATS
+
+	22 - WP REVIEW
+
+*/
+
+	/*===========================================
+		C O M M O N
+	===========================================*/
+
+	/*--- Titles ------------------------------*/
+
+	/*===========================================
+		L A Y O U T
+	===========================================*/
+
+	html {
+		overflow-y: scroll;
+	}
+
+	.boxed #layout {
+		max-width: 510px;
+	}
+
+	/*--- Header ------------------------------*/
+
+	#header {
+	}
+
+		#header-layout,
+		.header-2 #header-layout {
+			padding-top: 50px;
+			min-height: 0;
+		}
+
+			#header-holder {
+				width: 100%;
+			}
+
+				#logo {
+					display: none;
+				}
+
+		#header-layout-2 {
+			display: none;
+		}
+
+		.header-3 #logo {
+			padding-top: 25px;
+		}
+
+	/*--- Content -----------------------------*/
+
+	body.menu-resp-on.boxed #layout {
+		left: calc( 50% - 255px );
+	}
+
+	#content-layout {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+		#content-holder #content-box {
+			float: none;
+			width: calc( 100% - 30px );
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+			#content-box {
+				min-height: 100px;
+				margin-bottom: 25px;
+				padding: 25px 0 0;
+			}
+
+				.sidebar-secondary-available #content-box > div > div:first-child {
+					width: 249px;
+				}
+
+		#content-holder div.post-single {
+			float: none;
+			width: 100%;
+			margin: 0;
+		}
+
+	/*--- Footer ------------------------------*/
+
+	#footer-holder {
+		width: calc( 100% - 30px );
+	}
+
+	#copyrights-holder {
+		width: calc( 100% - 30px );
+	}
+
+		#copyrights-box * {
+			line-height: 1.575em;
+		}
+
+			#copyrights-box > div {
+				width: 100%;
+				text-align: center;
+			}
+
+
+	/*===========================================
+		M E N U
+	===========================================*/
+
+	/*--- Primary -----------------------------*/
+
+
+	#menu {
+		display: none;
+	}
+
+	/*--- Secondary ---------------------------*/
+
+	#menu-2 {
+		display: none;
+	}
+
+
+	/*===========================================
+		S I D E B A R S
+	===========================================*/
+
+	/*--- Sidebar -----------------------------*/
+
+	#content-holder .sidebar-primary {
+		float: none;
+		width: calc( 100% - 30px );
+		margin: 0 auto;
+		margin-top: 25px;
+		padding: 0;
+	}
+
+		#content-holder .sidebar {
+			width: auto;
+			margin: 0;
+		}
+
+			.widget {
+				margin-bottom: 25px;
+			}
+
+				#post-after .sidebar .widget_text {
+					width: 100%;
+					float: none;
+				}
+
+			.sidebar-post,
+			.sidebar-post div {
+				font-size: inherit;
+			}
+
+	/*--- Post Sidebar ------------------------*/
+
+	/* Post Sidebar by left side */
+	.sidebar-position-right div.sidebar-post,
+	.sidebar-position-none div.sidebar-post {
+		display: none;
+	}
+
+	/* Post Sidebar by right side */
+	.sidebar-position-left div.sidebar-post {
+		display: none;
+	}
+
+	/*--- Footer ------------------------------*/
+
+	#footer-box {
+		padding-top: 25px;
+	}
+
+	#footer-box .sidebar-footer,
+	#footer-box .sidebar-footer.last {
+		float: none;
+		width: auto;
+	}
+
+		#footer-box .sidebar-footer > div,
+		#footer-box .sidebar-footer.last > div {
+			margin: 0;
+		}
+
+	/*--- Ad sidebars -------------------------*/
+
+	.sidebar-ad-a {
+		margin-top: 25px;
+	}
+
+	.sidebar-ad-b {
+		margin-top: 25px;
+	}
+
+	/*===========================================
+		C O M M O N
+	===========================================*/
+
+	/*--- Titles -----------------------------*/
+
+		.single .post-sidebar-inactive article > h1,
+		.single .post-sidebar-inactive article > h2,
+		.single .post-sidebar-inactive article > h3,
+		.single .post-sidebar-inactive article > h4,
+		.single .post-sidebar-inactive article > h5,
+		.single .post-sidebar-inactive article > h6,
+		.post-default .content-data > h1,
+		.post-default .content-data > h2,
+		.post-default .content-data > h3,
+		.post-default .content-data > h4,
+		.post-default .content-data > h5,
+		.post-default .content-data > h6 {
+			padding-left: 0;
+			padding-right: 0;
+		}
+
+	/*--- Fieldset ---------------------------*/
+
+	fieldset {
+		padding: 10px 15px;
+	}
+
+	/*--- Paragraphs -------------------------*/
+
+	p {
+		margin-bottom: 0.5em;
+	}
+
+	/*===========================================
+		P O S T S
+	===========================================*/
+
+	.post-template {
+		padding-bottom: 25px;
+	}
+
+		.post-template article {
+			margin: 25px;
+			padding: 25px;
+		}
+
+	.post-default-yes-thumb.format-standard article,
+	.post-default-yes-thumb.format-image article,
+	.post-default.format-gallery article {
+		margin-top: 0;
+	}
+
+	/*--- Post t1 ----------------------------*/
+
+	div.post-t1 {
+		padding: 0 25px 25px;
+	}
+
+		.post-t1-format {
+			float: none;
+			width: auto;
+			margin: 0;
+			padding: 0;
+		}
+
+		.post-t1-meta {
+			float: none;
+			width: auto;
+			margin: 0;
+			padding-right: 50px;
+		}
+
+	.archive .v1 > div:first-child,
+	.search .v1 > div:first-child {
+		padding-top: 25px;
+	}
+
+	/*--- Sticky ------------------------------*/
+
+	#owl-sticky-wrapper {
+		margin-top: 25px;
+	}
+
+	#owl-sticky .post-sticky-a {
+		height: 350px;
+	}
+
+		#owl-sticky .post-sticky-a > div {
+			width: calc( 100% - 50px - 100px );
+			margin-right: 50px;
+			padding: 0 50px 50px;
+		}
+
+			#owl-sticky .post-sticky-a h3 {
+				font-size: 1.5em;
+			}
+
+	#owl-sticky-tabs {
+		width: 50px;
+	}
+
+		#owl-sticky-tabs div {
+			width: 50px;
+			height: 50px;
+		}
+
+			#owl-sticky-tabs div:before {
+				display: table-cell;
+				content: attr(data-number);
+				width: 50px;
+				height: 50px;
+				text-align: center;
+				vertical-align: middle;
+			}
+
+			#owl-sticky-tabs div span {
+				display: none;
+			}
+
+	/*--- Related -----------------------------*/
+
+	.posts-related-wrapper {
+		justify-content: space-around;
+	}
+
+		.posts-related-wrapper > div.second,
+		.posts-related-wrapper > div.third {
+			display: none;
+		}
+
+	/*--- Sticky ------------------------------*/
+
+	.featured-categories a {
+		display: block;
+		width: 100%;
+	}
+
+		.featured-categories a span {
+			margin: 50px 15px;
+		}
+
+
+	/*===========================================
+		W I D G E T S
+	===========================================*/
+
+	/*--- Calendar ----------------------------*/
+
+	#content-holder .sidebar-primary .sidebar .widget_calendar {
+		padding: 0;
+	}
+
+	/*--- Newsletter Widget -------------------*/
+
+	.newsletter-widget form:before {
+		display: block;
+		margin: 0 auto 15px;
+	}
+
+	/*===========================================
+		S H O R T C O D E S
+	===========================================*/
+
+	/*--- Columns -----------------+-----------*/
+
+	.column {
+		float: none;
+		width: auto !important;
+	}
+
+		.column > div {
+			margin-right: 0 !important;
+		}
+
+	/*--- Icon Box ----------------------------*/
+
+	.st_icon_box_16:before {
+		top: 0.60em;
+	}
+
+	.st_icon_box_32:before {
+		top: 0.2em;
+	}
+
+	/*--- Pull Quotes -------------------------*/
+
+	.pullquote {
+		font-size: 1.15em;
+		line-height: 1.535em;
+		margin-bottom: 10px;
+		padding: 10px 15px 15px;
+	}
+
+		.pullquote-left {
+			margin-right: 15px;
+			padding-left: 0;
+		}
+
+		.pullquote-right {
+			margin-left: 15px;
+			padding-right: 0;
+		}
+
+	/*--- Notice ------------------------------*/
+
+	.notice {
+		padding: 20px 25px 15px;
+	}
+
+	.notice-frontpage {
+		font-size: 1em;
+		padding: 50px 25px;
+	}
+
+		.notice-frontpage p {
+			margin-bottom: 1em;
+		}
+
+	/*--- Tabs --------------------------------*/
+
+	.st-ul li {
+		padding: 5px 15px;
+	}
+
+	.st-tabs {
+		padding: 15px;
+	}
+
+	/*--- Toggle ------------------------------*/
+
+	.toggle-title,
+	.toggle-box {
+		padding: 15px;
+	}
+
+	/*--- Separator OR ------------------------*/
+
+	.separator-or {
+		margin-bottom: 15px;
+	}
+
+
+	/*===========================================
+		P O S T
+	===========================================*/
+
+	#article {
+		margin-bottom: 25px;
+		padding-bottom: 25px;
+	}
+
+	#post-after {
+		margin: 25px 0;
+	}
+
+	.page article,
+	.single article {
+		margin: 15px 15px 25px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+		.page-feat-img-yes article,
+		.single-feat-img-yes.format-standard article,
+		.single-feat-img-yes.format-image article,
+		.single-feat-img-yes.format-gallery article {
+			margin-top: -15px;
+		}
+
+		#post-after {
+			margin: 25px 0;
+		}
+
+
+	/*===========================================
+		S P E C I A L
+	===========================================*/
+
+	.alignleft {
+		margin-right: 10px;
+	}
+
+	.alignright {
+		margin-left: 10px;
+
+	}
+
+
+	/*===========================================
+		P A G I N A T I O N
+	===========================================*/
+
+	/*--- Page pagination ---------------------*/
+
+	.page-pagination {
+		margin: 0 0 25px 0;
+	}
+
+	/*--- WP-Pagenavi -------------------------*/
+
+	#wp-pagenavibox {
+		margin: 25px 0;
+	}
+
+
+	/*===========================================
+		A R C H I V E
+	===========================================*/
+
+	#term {
+		margin-bottom: 25px;
+	}
+
+		.term-title h1 {
+			font-size: 1.3em;
+		}
+
+
+	/*===========================================
+		4 0 4
+	===========================================*/
+
+	#page-404 form {
+		margin: 25px 0;
+	}
+
+
+	/*===========================================
+		F O R M A T S
+	===========================================*/
+
+	/*-- Standard -----------------------------*/
+
+	.st-format-standard-holder .wp-post-image {
+		max-height: 300px;
+	}
+
+	/*-- Image --------------------------------*/
+
+	.st-format-image-holder .wp-post-image {
+		max-height: 300px;
+	}
+
+	/*-- Link ---------------------------------*/
+
+	.st-format-link-holder {
+		margin-bottom: 25px;
+	}
+
+		.st-format-link-holder .st-format-link a {
+			font-size: 1.25em;
+			margin: 25px auto;
+		}
+
+	/*-- Quote --------------------------------*/
+
+	.st-format-quote-holder .wp-post-image {
+		max-height: 300px;
+	}
+
+	/*-- Audio --------------------------------*/
+
+	.st-format-audio-holder .wp-post-image {
+		max-height: 300px;
+	}
+
+	/*-- Archives -----------------------------*/
+
+	.archive .st-format-status-holder {
+		margin: 0 0 25px;
+	}
+
+	/*-- Single -------------------------------*/
+
+	#article div[class^="st-format-"],
+	#article > div[class^="st-format-"],
+	.post-default div[class^="st-format-"] {
+		margin-bottom: 15px;
+	}
+
+		#article div.st-format-standard-holder,
+		.post-default div.st-format-standard-holder {
+			margin-bottom: 0;
+		}
+
+	/*-- Status -------------------------------*/
+
+	.status-header,
+	.single .status-header {
+		float: none;
+		width: auto;
+		text-align: center;
+		padding-top: 20px;
+		clear: left;
+	}
+
+		.single .status-content.cutted-closed:after {
+			margin: 0 auto -10px;
+		}
+
+		.status-header-upic {
+			float: none;
+			margin: 0 auto 15px;
+		}
+
+	.st-format-quote-holder blockquote {
+		margin: 25px;
+	}
+
+	/*-- Gallery ------------------------------*/
+
+	.single .st-format-gallery-holder .stOwlGallery .item a {
+		bottom: 15px;
+	}
+
+	/*===========================================
+		C O M M E N T S
+	===========================================*/
+
+	.comments-title {
+		padding-top: 25px;
+	}
+
+	#commentform input[type="submit"] {
+		width: 100%;
+	}
+
+
+/**/}
+
+
+@media only screen and ( max-width: 479px ) {
+/*===============================================
+
+	P H O N E   V
+	320px/479px
+
+===============================================*//**/
+
+/*
+
+	0 - COMMON
+
+	1 - LAYOUT
+
+		- Header
+		- Content
+		- Footer
+
+	2 - MENU
+
+		- Primary
+		- Secondary
+
+	3 - SIDEBARS
+
+		- Sidebar
+		- Footer
+		- Ad sidebars
+		- Homepage Sidebars
+
+	5 - COMMON
+
+		- Titles
+		- Attachment
+		- Quotes
+		- Fieldset
+
+	6 - POSTS
+
+		- Featured
+
+	7 - WIDGETS
+
+	8 - BUDDYPRESS
+
+	9 - ICONS
+
+		- Social
+
+	10 - SHORTCODES
+
+	11 - POST
+
+	12 - SPECIAL
+
+	13 - PAGINATION
+
+	14 - ARCHIVE
+
+	15 - BBPRESS
+
+	16 - COMMENTS
+
+	17 - 404
+
+	18 - WOOCOMMERCE
+
+	19 - FORMS
+
+	20 - PROJECTS
+
+	21 - FORMATS
+
+	22 - WP REVIEW
+
+*/
+
+	/*===========================================
+		C O M M O N
+	===========================================*/
+
+	/*--- Titles ------------------------------*/
+
+	/*===========================================
+		L A Y O U T
+	===========================================*/
+
+	html {
+		overflow-y: scroll;
+	}
+
+	.boxed #layout {
+		max-width: 350px;
+	}
+
+	/*--- Header ------------------------------*/
+
+	#header {
+	}
+
+		#header-layout,
+		.header-2 #header-layout {
+			padding-top: 50px;
+			min-height: 0;
+		}
+
+			#header-holder {
+				width: 100%;
+			}
+
+				#logo {
+					display: none;
+				}
+
+		#header-layout-2 {
+			display: none;
+		}
+
+		.header-3 #logo {
+			padding-top: 25px;
+		}
+
+			#logo h2,
+			#logo h2 a,
+			#logo h2 img {
+				max-width: 200px;
+				font-size: 24px;
+			}
+
+	/*--- Content -----------------------------*/
+
+	body.menu-resp-on.boxed #layout {
+		left: calc( 50% - 175px );
+	}
+
+	#content-layout {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+		#content-holder #content-box {
+			float: none;
+			/*width: calc( 100% - 30px );*/
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+			#content-box {
+				min-height: 100px;
+				margin-bottom: 25px;
+				padding: 25px 0 0;
+			}
+
+				.sidebar-secondary-available #content-box > div > div:first-child {
+					width: 249px;
+				}
+
+		#content-holder div.post-single {
+			float: none;
+			width: 100%;
+			margin: 0;
+		}
+
+	/*--- Footer ------------------------------*/
+
+	#footer-holder {
+		width: calc( 100% - 20px );
+	}
+
+	#copyrights-holder {
+		width: calc( 100% - 20px );
+	}
+
+		#copyrights-box * {
+			line-height: 1.575em;
+		}
+
+			#copyrights-box > div {
+				width: 100%;
+				text-align: center;
+			}
+
+
+	/*===========================================
+		M E N U
+	===========================================*/
+
+	/*--- Primary -----------------------------*/
+
+	#menu {
+		display: none;
+	}
+
+	/*--- Secondary ---------------------------*/
+
+	#menu-2 {
+		display: none;
+	}
+
+
+	/*===========================================
+		S I D E B A R S
+	===========================================*/
+
+	/*--- Sidebar -----------------------------*/
+
+	#content-holder .sidebar-primary {
+		float: none;
+		width: calc( 100% - 20px );
+		margin: 25px auto 0;
+		padding: 0;
+	}
+
+		#content-holder .sidebar {
+			width: auto;
+			margin: 0;
+		}
+
+			.widget {
+				margin-bottom: 25px;
+			}
+
+				#post-after .sidebar .widget_text {
+					width: 100%;
+					float: none;
+				}
+
+			.sidebar-post,
+			.sidebar-post div {
+				font-size: inherit;
+			}
+
+	/*--- Footer ------------------------------*/
+
+	#footer-box {
+		padding-top: 25px;
+	}
+
+	#footer-box .sidebar-footer,
+	#footer-box .sidebar-footer.last {
+		float: none;
+		width: auto;
+	}
+
+		#footer-box .sidebar-footer > div,
+		#footer-box .sidebar-footer.last > div {
+			margin: 0;
+		}
+
+	/*--- Ad sidebars -------------------------*/
+
+	.sidebar-ad-a {
+		margin-top: 25px;
+	}
+
+	.sidebar-ad-b {
+		margin-top: 25px;
+	}
+
+
+	/*===========================================
+		C O M M O N
+	===========================================*/
+
+	/*--- Titles -----------------------------*/
+
+		.single .post-sidebar-inactive article > h1,
+		.single .post-sidebar-inactive article > h2,
+		.single .post-sidebar-inactive article > h3,
+		.single .post-sidebar-inactive article > h4,
+		.single .post-sidebar-inactive article > h5,
+		.single .post-sidebar-inactive article > h6,
+		.post-default .content-data > h1,
+		.post-default .content-data > h2,
+		.post-default .content-data > h3,
+		.post-default .content-data > h4,
+		.post-default .content-data > h5,
+		.post-default .content-data > h6 {
+			padding-left: 0;
+			padding-right: 0;
+		}
+
+	/*--- Fieldset ---------------------------*/
+
+	fieldset {
+		padding: 10px 15px;
+	}
+
+	/*--- Paragraphs -------------------------*/
+
+	p {
+		margin-bottom: 0.5em;
+	}
+
+	/*===========================================
+		P O S T S
+	===========================================*/
+
+	.post-template {
+		padding-bottom: 25px;
+	}
+
+		.post-template article {
+			margin: 25px;
+			padding: 25px;
+		}
+
+	.post-default-yes-thumb.format-standard article,
+	.post-default-yes-thumb.format-image article,
+	.post-default.format-gallery article {
+		margin-top: 0;
+	}
+
+		.post-default .post-title-default {
+			font-size: 1.4em;
+		}
+
+	/*--- Post t1 ----------------------------*/
+
+	div.post-t1 {
+		padding: 0 0 10px;
+	}
+
+		.post-t1-format {
+			float: none;
+			width: auto;
+			margin: 0;
+			padding: 0;
+		}
+
+		.post-t1-meta {
+			float: none;
+			width: auto;
+			margin: 0;
+			padding: 25px 10px;
+		}
+
+		.post-t1-no-thumb .post-t1-meta,
+		.post-t1-status .post-t1-meta {
+			padding-right: inherit;
+		}
+
+	.archive .v1 > div:first-child,
+	.search .v1 > div:first-child {
+		padding-top: 10px;
+	}
+
+	/*--- Sticky ------------------------------*/
+
+	#owl-sticky-wrapper {
+		margin-top: 25px;
+	}
+
+	#owl-sticky .post-sticky-a {
+		height: 255px;
+	}
+
+		#owl-sticky .post-sticky-a > div {
+			width: calc( 100% - 50px - 50px );
+			margin-right: 50px;
+			padding: 0 25px 25px;
+		}
+
+			#owl-sticky .post-sticky-a h3 {
+				font-size: 1.15em;
+			}
+
+	#owl-sticky-tabs {
+		width: 50px;
+	}
+
+		#owl-sticky-tabs div {
+			width: 50px;
+			height: 50px;
+		}
+
+			#owl-sticky-tabs div:before {
+				display: table-cell;
+				content: attr(data-number);
+				width: 50px;
+				height: 50px;
+				text-align: center;
+				vertical-align: middle;
+			}
+
+			#owl-sticky-tabs div span {
+				display: none;
+			}
+
+	/*--- Related -----------------------------*/
+
+	.posts-related-wrapper {
+		justify-content: space-around;
+	}
+
+		.posts-related-wrapper > div.second,
+		.posts-related-wrapper > div.third {
+			display: none;
+		}
+
+	/*--- Sticky ------------------------------*/
+
+	.featured-categories a {
+		display: block;
+		width: 100%;
+	}
+
+		.featured-categories a span {
+			font-size: 11px;
+			margin: 50px 15px;
+		}
+
+
+	/*===========================================
+		S H O R T C O D E S
+	===========================================*/
+
+	/*--- Columns -----------------+-----------*/
+
+	.column {
+		float: none;
+		width: auto !important;
+	}
+
+		.column > div {
+			margin-right: 0 !important;
+		}
+
+	/*--- Icon Box ----------------------------*/
+
+	.st_icon_box_16:before {
+		top: 0.60em;
+	}
+
+	.st_icon_box_32:before {
+		top: 0.2em;
+	}
+
+	/*--- Pull Quotes -------------------------*/
+
+	.pullquote {
+		float: none;
+		width: auto;
+		font-size: 1.15em;
+		padding: 10px 15px 15px;
+	}
+
+		.pullquote-left {
+			margin-right: 0;
+			margin-left: 0;
+		}
+
+		.pullquote-right {
+			margin-right: 0;
+			margin-left: 0;
+		}
+
+	/*--- Notice ------------------------------*/
+
+	.notice {
+		padding: 20px 25px 15px;
+	}
+
+	.notice-frontpage {
+		font-size: 1em;
+		padding: 25px;
+	}
+
+		.notice-frontpage p {
+			margin-bottom: 1em;
+		}
+
+	/*--- Tabs --------------------------------*/
+
+	.st-ul li {
+		padding: 5px 15px;
+	}
+
+	.st-tabs {
+		padding: 15px;
+	}
+
+	/*--- Toggle --------------------------------*/
+
+	.toggle-title,
+	.toggle-box {
+		padding: 15px;
+	}
+
+	/*--- Separator OR ------------------------*/
+
+	.separator-or {
+		margin-bottom: 15px;
+	}
+
+
+	/*===========================================
+		P O S T
+	===========================================*/
+
+	#article {
+		margin-bottom: 25px;
+		padding-bottom: 25px;
+	}
+
+	#post-after {
+		margin: 25px 0;
+	}
+
+	.page article,
+	.single article {
+		margin: 0 0 25px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.page-feat-img-yes article,
+	.single-feat-img-yes.format-standard article,
+	.single-feat-img-yes.format-image article,
+	.single-feat-img-yes.format-gallery article {
+		margin-top: 0;
+	}
+
+		h1.post-title {
+			font-size: 1.4em;
+		}
+
+		#post-after {
+			margin: 25px 0;
+		}
+
+
+	/*===========================================
+		S P E C I A L
+	===========================================*/
+
+	.alignleft {
+		margin-right: 10px;
+	}
+
+	.alignright {
+		margin-left: 10px;
+	}
+
+
+	/*===========================================
+		P A G I N A T I O N
+	===========================================*/
+
+	/*--- Page pagination ---------------------*/
+
+	.page-pagination {
+		margin: 0 0 25px 0;
+	}
+
+	/*--- WP-Pagenavi -------------------------*/
+
+	#wp-pagenavibox {
+		margin: 25px 0;
+	}
+
+		#wp-pagenavibox .wp-pagenavi {
+			display: block;
+			width: calc( 100% - 52px );
+			margin: 0 auto;
+		}
+
+			#wp-pagenavibox .pages {
+				display: block;
+				text-align: center;
+				padding: 0 0 15px;
+			}
+
+			#wp-pagenavibox .page,
+			#wp-pagenavibox .last,
+			#wp-pagenavibox .first,
+			#wp-pagenavibox .current {
+				display: none;
+			}
+
+			#wp-pagenavibox a.previouspostslink,
+			#wp-pagenavibox a.nextpostslink {
+				display: table-cell;
+				width: 1%;
+			}
+
+				#wp-pagenavibox a.previouspostslink {
+					transform: translate( -1px, 0 );
+				}
+
+				#wp-pagenavibox a.nextpostslink {
+					transform: translate( 1px, 0 );
+				}
+
+	/*===========================================
+		A R C H I V E
+	===========================================*/
+
+	#term {
+		margin-bottom: 25px;
+	}
+
+		.term-title h1 {
+			font-size: 1.3em;
+		}
+
+			.term-title h1:before {
+				margin-right: 20px;
+				padding: 15px 20px;
+			}
+
+
+	/*===========================================
+		C O M M E N T S
+	===========================================*/
+
+	#comments-wrapper {
+		padding: 0 10px;
+	}
+
+		.comments-title {
+			padding-top: 25px;
+		}
+
+		#commentform input[type="submit"] {
+			width: 100%;
+		}
+
+		.comment-holder .comment-box {
+			padding-left: 0;
+		}
+
+		.comment-holder .avatar-box {
+			float: right;
+		}
+
+		#comments-wrapper .children {
+			margin-left: 0;
+			padding-left: 10px;
+			border-left: 1px solid;
+		}
+
+
+	/*===========================================
+		4 0 4
+	===========================================*/
+
+	#page-404 form {
+		margin: 25px 0;
+	}
+
+
+	/*===========================================
+		F O R M A T S
+	===========================================*/
+
+	/*-- Standard -----------------------------*/
+
+	.st-format-standard-holder .wp-post-image {
+		max-height: 300px;
+	}
+
+	/*-- Image --------------------------------*/
+
+	.st-format-image-holder .wp-post-image {
+		max-height: 300px;
+	}
+
+	/*-- Link ---------------------------------*/
+
+	.st-format-link-holder {
+		margin-bottom: 25px;
+	}
+
+		.st-format-link-holder .st-format-link a {
+			width: calc( 100% - 3em - 2px - 20px );
+			font-size: 1.25em;
+			margin: 10px;
+		}
+
+	/*-- Quote --------------------------------*/
+
+	.st-format-quote-holder .wp-post-image {
+		max-height: 300px;
+	}
+
+	/*-- Audio --------------------------------*/
+
+	.st-format-audio-holder .wp-post-image {
+		max-height: 300px;
+	}
+
+	/*-- Archives -----------------------------*/
+
+	.archive .st-format-status-holder {
+		margin: 0 0 25px;
+	}
+
+	/*-- Single -------------------------------*/
+
+	#article div[class^="st-format-"],
+	#article > div[class^="st-format-"],
+	.post-default div[class^="st-format-"] {
+		margin-bottom: 0;
+	}
+
+		#article div.st-format-standard-holder,
+		.post-default div.st-format-standard-holder {
+			margin-bottom: 0;
+		}
+
+	/*-- Status -------------------------------*/
+
+	.status-header,
+	.single .status-header {
+		float: none;
+		width: auto;
+		text-align: center;
+		padding-top: 20px;
+		clear: left;
+	}
+
+		.single .status-content.cutted-closed:after {
+			margin: 0 auto -10px;
+		}
+
+		.status-header-upic {
+			float: none;
+			margin: 0 auto 15px;
+		}
+
+	.st-format-quote-holder blockquote {
+		margin: 25px;
+	}
+
+
+	/*===========================================
+		W I D G E T S
+	===========================================*/
+
+	/*--- Calendar ----------------------------*/
+
+	#content-holder .sidebar-primary .sidebar .widget_calendar {
+		padding: 0;
+	}
+
+	/*--- Newsletter Widget -------------------*/
+
+	.newsletter-widget form:before {
+		display: block;
+		margin: 0 auto 15px;
+	}
+
+	/* Update - Raul */
+	.newsletter-widget form {
+		display: block;
+	}
+	/* ================= */
+
+		.newsletter-widget input,
+		.newsletter-widget input[type="submit"] {
+			width: 100%;
+			text-align: center;
+			padding: 17px 0;
+		}
+
+
+/**/}

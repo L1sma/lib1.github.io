@@ -1,0 +1,132 @@
+/*
+Theme Name: Ultra Framework
+
+Adding support for language written in a Right To Left (RTL) direction.
+*/
+
+/*=============================================================
+ *--------------------TABLE OF CONTENTS------------------------
+ *=============================================================
+ 1.0 TYPOGRAPHY
+ 2.0 ALIGNMENTS
+ 3.0 ACCESSIBILITY
+ 4.0 FORMS
+ 5.0 ELEMENTS
+ 6.0 COMMENTS
+ 7.0 NAVIGATION
+ 8.0 CONTENT
+ 9.0 WIDGETS
+ 10.0 CAPTIONS
+ 11.0 GALLERIES
+ 12.0 FOOTER
+ ------------------------------------------------------------*/
+/* 1.0 TYPOGRAPHY
+ * ============================================================
+ */
+
+/* 2.0 ALIGNMENTS
+ * =============================================================
+ */
+.alignright {
+    float: right;
+    margin-left: 1.5em;
+	margin-right: auto;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 1.5em;
+	margin-left: auto;
+}
+
+.aligncenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* 3.0 ACCESSIBILITY
+ * ============================================================
+ */
+.screen-reader-text:focus {
+    right: 5px;
+	left: auto;
+}
+
+/* 4.0 FORMS
+ * ============================================================
+ */
+
+/* 5.0 ELEMENTS
+ * ============================================================
+ */
+table thead th {
+    text-align: right;
+}
+
+/* 6.0 COMMENTS
+ * ============================================================
+ */
+.avatar {
+    margin-left: 15px;
+    float: right;
+	margin-right: auto;
+}
+
+.comment-content {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/* 7.0 NAVIGATION
+ * ============================================================
+ */
+.comment-navigation,
+.post-navigation,
+.paging-navigation {
+    text-align: right;
+}
+
+.nav-previous a::before {
+    padding-left: 10px;
+	padding-right: 0;
+}
+
+.nav-next a::after {
+    padding-right: 10px;
+	padding-left: 0;
+}
+
+/* 8.0 CONTENT
+ * ============================================================
+ */
+
+/* 9.0 WIDGETS
+ * ============================================================
+ */
+.widget li ul,
+.widget li ol {
+    margin-right: .5em;
+	margin-left: auto;
+}
+
+/* RSS widget */
+.widget li a.rsswidget {
+    padding-left: .5em;
+	padding-right: 0;
+}
+
+/* 10.0 CAPTIONS
+ * ============================================================
+ */
+.wp-caption img[class*="wp-image-"] {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* 11.0 GALLERIES
+ * ============================================================
+ */
+
+/* 12.0 FOOTER
+ * ============================================================
+ */

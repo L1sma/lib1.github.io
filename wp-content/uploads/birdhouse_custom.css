@@ -1,0 +1,14 @@
+body, div, td {
+  font-family: 'Lato', sans-serif; 
+}
+
+body, div, td {
+  font-size: 14px; 
+}
+
+/*-------------------------------------------
+    Custom styles
+-------------------------------------------*/
+
+/* for demo only */
+.st-sign { max-width: 150px; }

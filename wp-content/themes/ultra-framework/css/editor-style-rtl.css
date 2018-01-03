@@ -1,0 +1,86 @@
+/*
+Theme Name: Ultra Framework
+Description: Support for language written in a Right To Left (RTL) direction used to style the TinyMCE editor.
+*/
+/*=============================================================
+ *---------------------TABLE OF CONTENTS-----------------------
+ *=============================================================
+ 1.0 GLOBAL
+ 2.0 TYPOGRAPHY
+ 3.0 LINKS
+ 4.0 ALIGNMENTS
+ 5.0 CAPTIONS
+ 6.0 GALLERIES
+ ------------------------------------------------------------*/
+
+
+/* 1.0 GLOBAL
+ * ============================================================
+ */
+ul,
+ol {
+    padding-right: 30px;
+	padding-left: 0;
+}
+
+dd {
+    margin-right: 0;
+	margin-left: auto;
+}
+
+blockquote {
+    padding-right: 15px;
+    border-right: 5px solid #dddddd;
+	padding-left: 0;
+	border-left: none;
+}
+
+table thead th {
+    text-align: right;
+}
+
+/* 2.0 TYPOGRAPHY
+ * ============================================================
+ */
+body.rtl {
+	font: normal 14px / 20px "Work Sans", Helvetica, Arial, sans-serif;
+	background: #ffffff;
+	color: #444444;
+	margin: 0;
+}
+
+/* 3.0 LINKS
+ * ============================================================
+ */
+
+/* 4.0 ALIGNMENTS
+ * ============================================================
+ */ 
+.alignright {
+    float: right;
+    margin-left: 1.5em;
+	margin-right: auto;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 1.5em;
+	margin-left: auto;
+}
+
+.aligncenter {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* 5.0 CAPTIONS
+ * ============================================================
+ */
+.wp-caption img[class*="wp-image-"] {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* 6.0 GALLERIES
+ * ============================================================
+ */

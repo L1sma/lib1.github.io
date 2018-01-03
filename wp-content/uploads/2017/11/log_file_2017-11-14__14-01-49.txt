@@ -1,0 +1,112 @@
+
+---Upload files---
+Customizer file was not uploaded. Error: Файл пуст. Пожалуйста, загрузите что-то более существенное. Эта ошибка также может означать, что в php.ini запрещены загрузки, либо значение post_max_size меньше, чем upload_max_filesize.
+
+---Upload files---
+Redux file was not uploaded. Error: Файл пуст. Пожалуйста, загрузите что-то более существенное. Эта ошибка также может означать, что в php.ini запрещены загрузки, либо значение post_max_size меньше, чем upload_max_filesize.
+
+---Upload files---
+The import files were successfully uploaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://site49.saitodrom.by
+Data file = /srv/lib/wp-content/uploads/2017/11/all.xml
+Widget file = /srv/lib/wp-content/uploads/2017/11/widgets.wie
+Customizer file = not defined!
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Blog sidebar : 
+
+Поиск - No Title - Imported
+Свежие записи - No Title - Imported
+Свежие комментарии - No Title - Imported
+Архивы - No Title - Imported
+Рубрики - No Title - Imported
+Мета - No Title - Imported
+*Recent Posts - No Title - Imported
+* Mailchimp - Subscribe - Imported
+
+Blog sidebar single : 
+
+Поиск - No Title - Imported
+*Recent Posts - Recent Posts - Imported
+* Mailchimp - Subscribe - Imported
+* Recent Projects - Recent projects - Imported
+Облако меток - Tags - Imported
+Рубрики - Categoris - Imported
+
+Shop sidebar : 
+
+Product Search - No Title - Imported
+Product Categories - Product Categories - Imported
+Filter Products by Price - Filter by price - Imported
+Products by Rating - Top Rated Products - Imported
+Product Tag Cloud - Product Tags - Imported
+
+Shop sidebar single product : 
+
+Поиск - No Title - Imported
+Product Categories - Product Categories - Imported
+Product Tag Cloud - Product Tags - Imported
+Products by Rating - Top Rated Products - Imported
+* Schedule - Schedule - Imported
+
+Page sidebar #3 : 
+
+* Photos from flickr - Photos from flickr - Imported
+* Registration/Login form - Login - Imported
+* Schedule - Schedule - Imported
+Архивы - Archive - Imported
+Календарь - Calendar - Imported
+Рубрики - Categories - Imported
+Произвольное меню - Custom menu - Imported
+Мета - Meta - Imported
+Страницы - Pages - Imported
+Свежие комментарии - Comments - Imported
+Свежие записи - Recent posts - Imported
+RSS - No Title - Imported
+Поиск - Search - Imported
+Облако меток - Tags - Imported
+
+Footer sidebar : 
+
+Текст - No Title - Imported
+*Recent Posts - Recent posts - Imported
+* Recent Projects - Recent projects - Imported
+Текст - Contact Info - Imported
+
+

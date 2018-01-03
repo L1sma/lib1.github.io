@@ -1,0 +1,88 @@
+
+---Upload files---
+Customizer file was not uploaded. Error: Файл пуст. Пожалуйста, загрузите что-то более существенное. Эта ошибка также может означать, что в php.ini запрещены загрузки, либо значение post_max_size меньше, чем upload_max_filesize.
+
+---Upload files---
+Redux file was not uploaded. Error: Файл пуст. Пожалуйста, загрузите что-то более существенное. Эта ошибка также может означать, что в php.ini запрещены загрузки, либо значение post_max_size меньше, чем upload_max_filesize.
+
+---Upload files---
+The import files were successfully uploaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://site49.saitodrom.by
+Data file = /srv/lib/wp-content/uploads/2017/11/all-1.xml
+Widget file = /srv/lib/wp-content/uploads/2017/11/widgets-1.wie
+Customizer file = not defined!
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Blog sidebar : 
+
+Поиск - No Title - Widget already exists
+Свежие записи - No Title - Widget already exists
+Свежие комментарии - No Title - Widget already exists
+Архивы - No Title - Widget already exists
+Рубрики - No Title - Widget already exists
+Мета - No Title - Widget already exists
+*Recent Posts - No Title - Widget already exists
+* Mailchimp - Subscribe - Widget already exists
+
+Blog sidebar single : 
+
+Поиск - No Title - Widget already exists
+*Recent Posts - Recent Posts - Widget already exists
+* Mailchimp - Subscribe - Widget already exists
+* Recent Projects - Recent projects - Widget already exists
+Облако меток - Tags - Widget already exists
+Рубрики - Categoris - Widget already exists
+
+Shop sidebar : 
+
+Product Search - No Title - Widget already exists
+Product Categories - Product Categories - Widget already exists
+Filter Products by Price - Filter by price - Widget already exists
+Products by Rating - Top Rated Products - Widget already exists
+Product Tag Cloud - Product Tags - Widget already exists
+
+Shop sidebar single product : 
+
+Поиск - No Title - Widget already exists
+Product Categories - Product Categories - Widget already exists
+Product Tag Cloud - Product Tags - Widget already exists
+Products by Rating - Top Rated Products - Widget already exists
+* Schedule - Schedule - Widget already exists
+
+Page sidebar #3 : 
+
+* Photos from flickr - Photos from flickr - Widget already exists
+* Registration/Login form - Login - Widget already exists
+* Schedule - Schedule - Widget already exists
+Архивы - Archive - Widget already exists
+Календарь - Calendar - Widget already exists
+Рубрики - Categories - Widget already exists
+Произвольное меню - Custom menu - Widget already exists
+Мета - Meta - Widget already exists
+Страницы - Pages - Widget already exists
+Свежие комментарии - Comments - Widget already exists
+Свежие записи - Recent posts - Widget already exists
+RSS - No Title - Widget already exists
+Поиск - Search - Widget already exists
+Облако меток - Tags - Widget already exists
+
+Footer sidebar : 
+
+Текст - No Title - Imported
+* Mailchimp - Subscribe - Imported
+* Recent Projects - Recent projects - Widget already exists
+Текст - Contact Info - Widget already exists
+
+

@@ -1,0 +1,699 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: strictthemes.com\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-04 00:58+0200\n"
+"PO-Revision-Date: 2016-07-04 00:58+0200\n"
+"Last-Translator: \n"
+"Language-Team: StrictThemes <info@strictthemes.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html__;esc_attr__;esc_attr_e\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Generator: Poedit 1.8.7\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:17
+msgid "Nothing found"
+msgstr ""
+
+#: 404.php:20
+msgid "Sorry, the page you asked for couldn't be found."
+msgstr ""
+
+#: 404.php:21
+msgid "Please, try to use the search form below."
+msgstr ""
+
+#: 404.php:30
+msgid "Search..."
+msgstr ""
+
+#: 404.php:37
+msgid "Here's a little map that might help you get back on track:"
+msgstr ""
+
+#: 404.php:41
+msgid "Categories"
+msgstr ""
+
+#: 404.php:47
+msgid "Archives"
+msgstr ""
+
+#: archive.php:237 index.php:79 search.php:111 taxonomy-post_format.php:232
+#: template-frontpage.php:130
+msgid "Older posts"
+msgstr ""
+
+#: archive.php:237 index.php:79 search.php:111 taxonomy-post_format.php:232
+#: template-frontpage.php:130
+msgid "Newer posts"
+msgstr ""
+
+#: archive.php:284 attachment.php:100 page.php:205 single.php:364
+#: taxonomy-post_format.php:292
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: comments.php:36
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:78 comments.php:129 framework/functions/global.php:859
+msgid "Leave a reply"
+msgstr ""
+
+#: comments.php:79
+msgid "Comments"
+msgstr ""
+
+#: comments.php:102
+msgid "Pingbacks"
+msgstr ""
+
+#: comments.php:118
+msgid "Older comments"
+msgstr ""
+
+#: comments.php:119
+msgid "Newer comments"
+msgstr ""
+
+#: comments.php:152
+msgid "You must be logged in to post a comment."
+msgstr ""
+
+#: comments.php:152
+msgid "Log in"
+msgstr ""
+
+#: comments.php:170
+msgid "Name"
+msgstr ""
+
+#: comments.php:183
+msgid "Email"
+msgstr ""
+
+#: comments.php:197 includes/posts/formats/status.php:71
+msgid "Website"
+msgstr ""
+
+#: comments.php:213
+msgid "Type here"
+msgstr ""
+
+#: framework/functions/checking.php:32
+#, php-format
+msgid ""
+"You're using <strong>ST Kit</strong> plugin v.%1$s, however <strong>%2$s</"
+"strong> theme requires <strong>ST Kit</strong> v.%3$s or higher. Update ST "
+"Kit from within <a href='%4$s'>Plugins</a> page."
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:393
+#: framework/functions/classes/class-tgm-plugin-activation.php:912
+#: framework/functions/classes/class-tgm-plugin-activation.php:2618
+#: framework/functions/classes/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:394
+#: framework/functions/classes/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:395
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:1019
+#: framework/functions/classes/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:2639
+#: framework/functions/global.php:807 options.php:85
+msgid "Status"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:3594
+#: framework/functions/classes/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:3594
+#: framework/functions/classes/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#: framework/functions/classes/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/functions/global.php:365 includes/posts/default.php:59
+#: includes/posts/t1.php:94
+msgid "Continue Reading"
+msgstr ""
+
+#: framework/functions/global.php:481
+msgid "Theme Installation"
+msgstr ""
+
+#: framework/functions/global.php:674
+#, php-format
+msgid "Drop a widget on \"%s\" sidebar at Appearance > Widgets page."
+msgstr ""
+
+#: framework/functions/global.php:800 options.php:57
+msgid "Aside"
+msgstr ""
+
+#: framework/functions/global.php:801 options.php:61
+msgid "Image"
+msgstr ""
+
+#: framework/functions/global.php:802 options.php:65 options.php:161
+msgid "Gallery"
+msgstr ""
+
+#: framework/functions/global.php:803 options.php:69 options.php:165
+msgid "Audio"
+msgstr ""
+
+#: framework/functions/global.php:804 options.php:73 options.php:169
+msgid "Video"
+msgstr ""
+
+#: framework/functions/global.php:805 options.php:77
+msgid "Link"
+msgstr ""
+
+#: framework/functions/global.php:806 options.php:81
+msgid "Quote"
+msgstr ""
+
+#: framework/functions/global.php:808 options.php:89
+msgid "Chat"
+msgstr ""
+
+#: framework/functions/global.php:859
+msgid "1 Comment"
+msgstr ""
+
+#: framework/functions/global.php:859
+msgid "% Comments"
+msgstr ""
+
+#: framework/functions/register-menu.php:38
+msgid "Primary Menu"
+msgstr ""
+
+#: framework/functions/register-menu.php:41
+msgid "Secondary Menu"
+msgstr ""
+
+#: framework/functions/register-sidebars.php:53
+msgid "Appears on posts and pages by default."
+msgstr ""
+
+#: framework/functions/register-sidebars.php:70
+msgid "Appears on archives and homepage."
+msgstr ""
+
+#: framework/functions/register-sidebars.php:87
+msgid ""
+"Additional sidebar. Usually, it comes by left side of post. Appears on posts "
+"only."
+msgstr ""
+
+#: framework/functions/register-sidebars.php:103
+msgid "Extra sidebar."
+msgstr ""
+
+#: framework/functions/register-sidebars.php:176
+msgid ""
+"Appears on projects and archives of projects depends of selected template."
+msgstr ""
+
+#: framework/functions/register-sidebars.php:193
+msgid "Appears on all pages at the bottom of site."
+msgstr ""
+
+#: framework/functions/register-sidebars.php:210
+msgid "Appears on bbPress forum pages."
+msgstr ""
+
+#: framework/functions/register-sidebars.php:227
+msgid "Appears on BuddyPress pages."
+msgstr ""
+
+#: framework/functions/register-sidebars.php:244
+msgid "Appears on WooCommerce pages."
+msgstr ""
+
+#: framework/welcome.php:12
+#, php-format
+msgid "<h2>Welcome to </h2><h1>%s <span>v.%s</span></h1>"
+msgstr ""
+
+#: framework/welcome.php:13
+#, php-format
+msgid ""
+"Thank you for choosing the theme created by <a target='_blank' href='http://"
+"strictthemes.com/to/portfolio/'>StrictThemes</a> team. Please follow further "
+"installation process for getting a clone of <a target='_blank' "
+"href='%s'>Demo Site</a>"
+msgstr ""
+
+#: framework/welcome.php:24
+msgid "Next Step (2/3)"
+msgstr ""
+
+#: framework/welcome.php:25
+msgid ""
+"On the next page you'll prompted to install a list of required plugins. "
+"Install all of them and go back here."
+msgstr ""
+
+#: framework/welcome.php:26
+msgid "Go to Plugins"
+msgstr ""
+
+#: framework/welcome.php:29
+msgid "Do not forget to:"
+msgstr ""
+
+#: framework/welcome.php:31
+msgid "Follow Us on Facebook"
+msgstr ""
+
+#: framework/welcome.php:32
+msgid "Rate the BirdHouse theme"
+msgstr ""
+
+#: framework/welcome.php:33
+msgid "Learn How to Make Your Blog Successful"
+msgstr ""
+
+#: framework/welcome.php:34
+#, php-format
+msgid "Buy Another License of %s"
+msgstr ""
+
+#: includes/comments/comment.php:45 includes/comments/pingback.php:44
+msgid "at"
+msgstr ""
+
+#: includes/comments/comment.php:63
+msgid "Reply"
+msgstr ""
+
+#: includes/comments/comment.php:65
+msgid "Cancel"
+msgstr ""
+
+#: includes/comments/comment.php:74 includes/comments/pingback.php:32
+msgid "Edit"
+msgstr ""
+
+#: includes/comments/comment.php:79
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: includes/posts/default.php:76 page.php:184 single.php:223
+msgid "Pages"
+msgstr ""
+
+#: includes/posts/formats/status.php:74
+msgid "Facebook"
+msgstr ""
+
+#: includes/posts/formats/status.php:77
+msgid "Google+"
+msgstr ""
+
+#: includes/posts/formats/status.php:80
+msgid "Twitter"
+msgstr ""
+
+#: includes/posts/formats/status.php:83
+msgid "Instagram"
+msgstr ""
+
+#: includes/posts/formats/status.php:86
+msgid "Pinterest"
+msgstr ""
+
+#: includes/posts/formats/status.php:89
+msgid "LinkedIn"
+msgstr ""
+
+#: includes/posts/formats/status.php:92
+msgid "VK"
+msgstr ""
+
+#: includes/posts/formats/status.php:95
+msgid "YouTube"
+msgstr ""
+
+#: includes/posts/sticky.php:138
+msgid "Read"
+msgstr ""
+
+#: includes/posts/sticky.php:139
+msgid "View"
+msgstr ""
+
+#: includes/posts/sticky.php:140
+msgid "Browse"
+msgstr ""
+
+#: includes/posts/sticky.php:141
+msgid "Listen"
+msgstr ""
+
+#: includes/posts/sticky.php:142
+msgid "Watch"
+msgstr ""
+
+#: includes/posts/sticky.php:143
+msgid "Get link"
+msgstr ""
+
+#: includes/posts/sticky.php:144 includes/posts/sticky.php:145
+msgid "More about"
+msgstr ""
+
+#: options.php:203
+msgid "Appears on the header of all pages."
+msgstr ""
+
+#: options.php:204
+msgid "Appears on the middle of homepage."
+msgstr ""
+
+#: options.php:205
+msgid "Appears on the bottom of all pages."
+msgstr ""
+
+#: options.php:394 options.php:558
+msgid "Default"
+msgstr ""
+
+#: options.php:396
+msgid "This is standard template."
+msgstr ""
+
+#: options.php:625
+msgid "Light"
+msgstr ""
+
+#: options.php:629
+msgid "Dark"
+msgstr ""
+
+#: search.php:122
+msgid ""
+"Sorry, nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: single.php:316
+msgid "You Might Also Like"
+msgstr ""

@@ -1,0 +1,20 @@
+
+---Upload files---
+Widget file was not uploaded. Error: Файл пуст. Пожалуйста, загрузите что-то более существенное. Эта ошибка также может означать, что в php.ini запрещены загрузки, либо значение post_max_size меньше, чем upload_max_filesize.
+
+---Upload files---
+Customizer file was not uploaded. Error: Файл пуст. Пожалуйста, загрузите что-то более существенное. Эта ошибка также может означать, что в php.ini запрещены загрузки, либо значение post_max_size меньше, чем upload_max_filesize.
+
+---Upload files---
+Redux file was not uploaded. Error: Файл пуст. Пожалуйста, загрузите что-то более существенное. Эта ошибка также может означать, что в php.ini запрещены загрузки, либо значение post_max_size меньше, чем upload_max_filesize.
+
+---Upload files---
+The import files were successfully uploaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://site49.saitodrom.by
+Data file = /srv/lib/wp-content/uploads/2017/11/revslider1.zip
+Widget file = not defined!
+Customizer file = not defined!
+Redux files:
+not defined!
